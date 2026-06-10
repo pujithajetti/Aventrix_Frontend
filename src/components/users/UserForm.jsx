@@ -11,7 +11,7 @@ import {
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 
-import addUserSchema from "../../ValidationSchema";
+import addUserSchema from "../../validationSchema";
 
 const defaultValues = {
   name: "",
